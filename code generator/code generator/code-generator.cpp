@@ -4,10 +4,8 @@
 #include <string>
 using namespace std;
 
-int main() {
+void watchContentDetails(ifstream& inputStream, ofstream& outputStream) {
     
-    ifstream inputStream("input.txt"); // open the input file
-    ofstream outputStream("output.txt");
     
     // check to see if the input worked
     if (!inputStream) { // returns true if something wrong with stream
@@ -20,8 +18,12 @@ int main() {
         exit(1);
     }
     
-    outputStream << "<input class=\"spoilerbutton\" id=\"watch-details\" type=\"button\" value=\"Show Details\" " << endl;
-    outputStream << "onclick=\"this.value=this.value=='Show Details'?'Hide Details':'Show Details';\">" << endl;
+    outputStream << "<style> a { color: white; } </style>" << endl;
+    
+    outputStream << "<input class=\"spoilerbutton\" id=\"watch-details\" type=\"button\" value=\"Show Details\" "
+    << "onclick=\"this.value=this.value=='Show Details'?'Hide Details':'Show Details';\">" << endl;
+    
+    outputStream << endl;
     
     outputStream << "<div class=\"spoiler\"><div>" << endl;
     outputStream << "<br> \n" << endl;
@@ -29,14 +31,33 @@ int main() {
     
     string line;
     while (getline(inputStream, line)) {
-        outputStream << line << "<br>" << endl;
+        int linkInd = static_cast<int>(line.find("http"));
+        if (0 <= linkInd && linkInd < line.length()) {
+            cout << line << endl;
+            string socialName = line.substr(0, linkInd);
+            string link = line.substr(linkInd);
+            
+            outputStream << socialName
+            << "<a href=\"" << link << "\"> " << link << " </a> <br>" << endl;
+        }
+        else {
+            outputStream << line << "<br>" << endl;
+        }
     }
     
     outputStream << "\n</div></div>" << endl;
     
+}
+
+int main() {
+    
+    ifstream inputStream("input.txt"); // open the input file
+    ofstream outputStream("output.txt");
+    
+    watchContentDetails(inputStream, outputStream);
+    
     // close the file stream
     inputStream.close();
     outputStream.close();
-    
     
 }

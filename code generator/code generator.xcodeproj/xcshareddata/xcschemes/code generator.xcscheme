@@ -47,7 +47,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/taylorwong/Desktop/views from nyu/code generator/code generator"
+      customWorkingDirectory = "/Users/taylorwong/Desktop/views from nyu/views-from-nyu/code generator/code generator"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"

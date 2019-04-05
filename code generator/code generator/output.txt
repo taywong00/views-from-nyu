@@ -1,29 +1,30 @@
-<input class="spoilerbutton" id="watch-details" type="button" value="Show Details" 
-onclick="this.value=this.value=='Show Details'?'Hide Details':'Show Details';">
+<input class="spoilerbutton" id="watch-details" type="button" value="Show Details" onclick="this.value=this.value=='Show Details'?'Hide Details':'Show Details';">
+
 <div class="spoiler"><div>
 <br> 
 
-"Views from NYU: Episode 1<br>
+Follow Brandon Lew here:<br>
+Instagram: <a href="https://www.instagram.com/blewandthecrew"> https://www.instagram.com/blewandthecrew </a> <br>
+Facebook: <a href="https://www.facebook.com/brandon.lew.77"> https://www.facebook.com/brandon.lew.77 </a> <br>
+Twitter: <a href="https://twitter.com/blewandthecrew"> https://twitter.com/blewandthecrew </a> <br>
 <br>
-Guests: Sean Millea, Jonathan Wang<br>
-Host: Brandon Lew<br>
-Showrunner: Brandon Lew<br>
-Producer: Harrison Wilson<br>
-Comedy Writers: Aidan Benitez, Peri Segel<br>
-Director of Photography: Harvey Kingsley-Elton<br>
-1st AC: Eli Kravetz<br>
-2nd AC: Fred Seo<br>
-3rd AC: Andrew Fuchs<br>
-Sound: Lorenzo Conti<br>
-PA: Aidan Benitez, Brian Koch<br>
-Audience Coordinator: Emma Mantoani<br>
-Sidekick: Peter Mancuso<br>
-DJ: Saagar Chandiamani<br>
-Editor: David Behrens, Brian Koch<br>
-Origin Story Writer/Director: Andy Johnson<br>
-DP: Harvey Kingsley-Elton<br>
-AC: Nathan Rodriguez<br>
-Colorist: Nathan Rodriguez<br>
-Title Sequence Director/Editor: Daniel Novarro"<br>
+Follow Claire Feng here:<br>
+Instagram: <a href="https://www.instagram.com/claire.y.f/"> https://www.instagram.com/claire.y.f/ </a> <br>
+Facebook: <a href="https://www.facebook.com/clairefeng17"> https://www.facebook.com/clairefeng17 </a> <br>
+Twitter: <a href="https://twitter.com/asapfeng"> https://twitter.com/asapfeng </a> <br>
+<br>
+Views from NYU: Episode 4<br>
+Starring: Brandon Lew, Claire Feng<br>
+Extras: Carly Kline, Mikayla Lynn, Ryan Shah, Talia Garg, Roy Einhorn<br>
+Producer: Roy Einhorn<br>
+Director: Guru Ramanathan<br>
+Writer: Annabelle Tocco<br>
+DP: Ashley Newquist<br>
+Editors: Jaap Deinum, Chandler Wang<br>
+Crew: Jaap Deinum<br>
+<br>
+Show Website: <a href="https://viewsfromnyu.wordpress.com/"> https://viewsfromnyu.wordpress.com/ </a> <br>
+<br>
+Views from NYU is a late night talk show that features the talents of NYU’s dynamic student community.<br>
 
 </div></div>
